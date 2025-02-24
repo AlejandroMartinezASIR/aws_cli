@@ -56,6 +56,12 @@ Este script utiliza la **AWS CLI** para realizar las siguientes acciones:
 - **`set -x`**: Activa el modo de depuración, lo que imprimirá cada comando y sus argumentos antes de ejecutarlos. Es útil para rastrear la ejecución del script.
 - **`export AWS_PAGER=""`**: Establece la variable de entorno `AWS_PAGER` a una cadena vacía, desactivando la paginación de resultados de **AWS CLI.** 
 - **`source .env`**: Importa variables desde el archivo `.env`.
-- **`INSTANCE_ID=$(...)`**: Obtiene la **ID** de la **instancia** con el nombre especificado (`$INSTANCE_NAME_FRONTEND`) que está en estado **"running"**. La salida se almacena en la **variable** `INSTANCE_ID`.
+- **`INSTANCE_ID=$(...)`**: Obtiene la **ID** de la **instancia** con el nombre especificado (`$INSTANCE_NAME_BALANCEADOR`) que está en estado **"running"**. La salida se almacena en la **variable** `INSTANCE_ID`.
 - **`ELASTIC_IP=$(...)`**: Asigna una nueva dirección **IP elástica** y obtiene la dirección **IP** asignada. La salida se almacena en la **variable** `ELASTIC_IP`.
 - **`aws ec2 associate-address`**: Asocia la **IP elástica** recién asignada con la **instancia** identificada por  `INSTANCE_ID`.
+
+# EJECUCION
+![IP](images/ip.png)
+![inst](images/Creacion%20de%20instancias.png)
+![reg](images/reglas.png)
+![]()
