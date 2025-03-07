@@ -61,8 +61,8 @@ Este script utiliza la **AWS CLI** para realizar las siguientes acciones:
 - **`aws ec2 associate-address`**: Asocia la **IP elástica** recién asignada con la **instancia** identificada por  `INSTANCE_ID`.
 
 # EJECUCION
-![IP](images/ip1.png)
-![IP](images/ip2.png)
+![IP](images/ip1.PNG)
+![IP](images/ip2.PNG)
 ![inst](images/Capturain.PNG)
 ![inst](images/Capturain1.PNG)
 ![reg](images/reglas.png)
